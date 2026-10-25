@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelLink.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">TravelLink.</a>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#culture">Culture</a></li>
+                <li><a href="#contact">The CultT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <p class="tagline">EXPLORE • EXPERIENCE • CONNECT</p>
+
+            <h1>Discover the Soul of<br>
+                <span>Tamil Nadu</span>
+            </h1>
+
+            <p>
+                Ancient temples, rich traditions, beautiful landscapes
+                and unforgettable experiences.
+            </p>
+
+            <a href="#destinations" class="button">Explore Destinations →</a>
+        </section>
+
+        <!-- Destinations -->
+        <section class="section" id="destinations">
+            <p class="tagline">PLACES TO EXPLORE</p>
+            <h2>Discover Beautiful Destinations</h2>
+
+            <div class="card-grid">
+
+                <article class="card">
+                    <img
+                        src="meenakshi.jpg"
+                        alt="Historic temple architecture">
+                    <div class="card-content">
+                        <h3>Madurai</h3>
+                        <p>Discover the famous Meenakshi Amman Temple
+                           and the city's rich history.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img
+                        src="ooty.jpg"
+                        alt="Mountain landscape">
+                    <div class="card-content">
+                        <h3>Ooty</h3>
+                        <p>Enjoy green hills, tea gardens and
+                           refreshing mountain views.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img
+                        src="kanya.jpg"
+                        alt="Blue sea and coastline">
+                    <div class="card-content">
+                        <h3>Kanyakumari</h3>
+                        <p>Experience beautiful coastlines and
+                           spectacular sunrise views.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img
+                        src="thanjavurt.jpg"
+                        alt="Traditional Indian temple">
+                    <div class="card-content">
+                        <h3>Thanjavur</h3>
+                        <p>Explore magnificent Chola architecture
+                           and Tamil heritage.</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Tamil Culture -->
+        <section class="culture section" id="culture">
+            <p class="tagline">OUR HERITAGE</p>
+            <h2>Experience Tamil Culture</h2>
+
+            <p class="intro">
+                Tamil Nadu is known for its ancient traditions,
+                classical arts, colourful festivals and delicious food.
+            </p>
+
+            <div class="culture-grid">
+                <article class="culture-card">
+                    <div class="culture-icon">💃</div>
+                    <h3>Bharatanatyam</h3>
+                    <p>Experience the beauty of classical Tamil dance.</p>
+                </article>
+
+                <article class="culture-card">
+                    <div class="culture-icon">🪔</div>
+                    <h3>Festivals</h3>
+                    <p>Celebrate Pongal, temple festivals and traditions.</p>
+                </article>
+
+                <article class="culture-card">
+                    <div class="culture-icon">🍚</div>
+                    <h3>Tamil Food</h3>
+                    <p>Taste idli, dosa, traditional meals and filter coffee.</p>
+                </article>
+
+                <article class="culture-card">
+                    <div class="culture-icon">🧵</div>
+                    <h3>Arts & Crafts</h3>
+                    <p>Discover Kanchipuram silk, bronze art and handicrafts.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Travel Enquiry Form -->
+        <section class="section" id="contact">
+            <p class="tagline">LET'S PLAN YOUR JOURNEY</p>
+            <h2>Plan Your Tamil Nadu Trip</h2>
+
+            <form class="travel-form" action="#" method="get">
+
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label for="place">Choose Your Destination</label>
+                <select id="place" name="destination" required>
+                    <option value="">Select a place</option>
+                    <option>Madurai</option>
+                    <option>Ooty</option>
+                    <option>Kanyakumari</option>
+                    <option>Thanjavur</option>
+                    <option>Chennai</option>
+                    <option>Rameswaram</option>
+                </select>
+
+                <label for="interest">What interests you?</label>
+                <select id="interest" name="interest">
+                    <option>Temples and Heritage</option>
+                    <option>Nature and Mountains</option>
+                    <option>Food and Culture</option>
+                    <option>Beaches</option>
+                </select>
+                <button type="submit" class="button">Submit Enquiry</button>
+
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h3>TravelLink.</h3>
+        <p>Discover Tamil Nadu. Experience its soul.</p>
+        <p>© 2026 TravelLink.</p>
+    </footer>
+
+</body>
+</html>
